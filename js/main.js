@@ -731,14 +731,6 @@
     $('.slider-nav-thumbnails').slick('setPosition');
 
     $('.product-image-slider').slick('setPosition');
-    if ($(window).width() > 768) {
-      $('.product-image-slider .slick-active img').elevateZoom({
-        zoomType: 'inner',
-        cursor: 'crosshair',
-        zoomWindowFadeIn: 500,
-        zoomWindowFadeOut: 750,
-      });
-    }
   });
 
   $('.select-product-option').on('click', function () {
